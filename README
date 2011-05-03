@@ -1,0 +1,11 @@
+Parses mysql log file into sqlite db file and extract sql params
+
+usage: parse.py [-h] -i log_file [-o db_file] [-cp code_page]
+
+Parse mysql log file
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -i log_file    Log file
+  -o db_file     SQLite file
+  -cp code_page  codepage
